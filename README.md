@@ -12,3 +12,9 @@ Tutoriais:
 [Tutorial 2](https://www.rabbitmq.com/tutorials/tutorial-two-spring-amqp.html)
 
 [Tutorial 3](https://www.rabbitmq.com/tutorials/tutorial-three-spring-amqp.html)
+
+[Getting Started](https://www.rabbitmq.com/getstarted.html)
+
+[AMQP Conceitos](https://www.rabbitmq.com/tutorials/amqp-concepts.html)
+
+[Tutoriais AMQP em C++](https://github.com/RPG-18/rabbitmq-cpp-tutorials)
