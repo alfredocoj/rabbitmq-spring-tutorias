@@ -5,6 +5,21 @@ Tutoriais:
 - Work queues (Tutorial 2)
 - Publish/Subscribe com Fanout Exchange - (Tutorial 3)
 
+
+SEND
+```
+mvn clean package
+
+java -jar target/rabbitmq-amqp-1.0-SNAPSHOT.jar --spring.profiles.active=work-queues,sender
+java -jar target/rabbitmq-amqp-1.0-SNAPSHOT.jar --spring.profiles.active=work-queues,receiver
+
+java -jar target/rabbitmq-amqp-1.0-SNAPSHOT.jar --spring.profiles.active=pub-sub,sender --tutorial.client.duration=60000
+java -jar target/rabbitmq-amqp-1.0-SNAPSHOT.jar --spring.profiles.active=pub-sub,receiver --tutorial.client.duration=60000
+
+
+
+```
+
 ## Referências
 
 [Tutorial 1](https://www.rabbitmq.com/tutorials/tutorial-one-spring-amqp.html)
