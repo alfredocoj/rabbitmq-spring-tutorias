@@ -1,9 +1,9 @@
-## Tutoriais oficiais do RabbitMQ para SpringBoot
+## Official RabbitMQ Tutorials for SpringBoot
 
-Tutoriais:
+Tutorials:
 - Hello World (Tutorial 1)
 - Work queues (Tutorial 2)
-- Publish/Subscribe com Fanout Exchange - (Tutorial 3)
+- Publish / Subscribe with Fanout Exchange - (Tutorial 3)
 
 
 SEND
@@ -20,7 +20,7 @@ java -jar target/rabbitmq-amqp-1.0-SNAPSHOT.jar --spring.profiles.active=pub-sub
 
 ```
 
-## Referências
+## References
 
 [Tutorial 1](https://www.rabbitmq.com/tutorials/tutorial-one-spring-amqp.html)
 
